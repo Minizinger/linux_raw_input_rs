@@ -3,5 +3,6 @@ name = "linux_raw_input_rs"
 version = "0.1.0"
 authors = ["Mikhail Kharitonovich <kharitonovich.m@gmail.com>"]
 description = "Simple library to grab raw input from keyboard in linux systems"
+license = "MIT"
 
 [dependencies]
