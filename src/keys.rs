@@ -1,4 +1,4 @@
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Debug, PartialEq, Eq, Hash)]
 #[allow(non_camel_case_types, dead_code)]
 pub enum Keys {
     Unknown,

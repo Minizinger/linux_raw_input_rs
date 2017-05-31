@@ -6,7 +6,7 @@ pub struct Input {
     pub code: u16,
     pub value: i32
 }
-#[derive(Debug)]
+#[derive(Debug, PartialEq, Eq)]
 pub enum EventType {
     Push,
     Release
