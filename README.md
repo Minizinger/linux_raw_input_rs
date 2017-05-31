@@ -5,7 +5,7 @@
 Simple library for reading keyboard input directly from input events in linux systems.
 
 ```
-linux_raw_input_rs = "0.1.2"
+linux_raw_input_rs = "0.1.3"
 ```
 
 Example of code using it:
