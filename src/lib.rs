@@ -1,5 +1,5 @@
-mod input;
-mod keys;
+pub mod input;
+pub mod keys;
     
 use std::process::Command;
 use std::str::from_utf8;

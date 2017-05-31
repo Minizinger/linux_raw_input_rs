@@ -1,6 +1,6 @@
 [package]
 name = "linux_raw_input_rs"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Mikhail Kharitonovich <kharitonovich.m@gmail.com>"]
 repository = "https://github.com/Minizinger/linux_raw_input_rs"
 description = "Simple library to grab raw input from keyboard in linux systems"
