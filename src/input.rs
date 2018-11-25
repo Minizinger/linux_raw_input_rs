@@ -9,7 +9,8 @@ pub struct Input {
 #[derive(Debug, PartialEq, Eq)]
 pub enum EventType {
     Push,
-    Release
+    Release,
+    Other(i32)
 }
 
 impl Input {
@@ -26,7 +27,8 @@ impl Input {
     pub fn event_type(&self) -> EventType{
         match self.value {
             1 => EventType::Push,
-            _ => EventType::Release
+            0 => EventType::Release,
+            other => EventType::Other(other),
         }
     }
     pub fn get_key(&self) -> Keys{
